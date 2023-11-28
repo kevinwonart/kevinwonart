@@ -82,8 +82,10 @@
   .about-containers, .contact-info-upper-container, .btn-container, .section__pic-containers {
     flex-wrap:wrap;
   }
-  .contact-info-info-container {
+  .contact-info-upper-container{
     margin: 0;
+    margin-top:1rem;
+    justify-content:center;
   }
   .contact-info-container, p, .nav-links li a {
     font-size: 1rem;
@@ -98,6 +100,9 @@
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
+  }
+  #socials-container{
+    margin-bottom: 1rem;
   }
    .section__pic-container-top, .section__pic-container {
     display: flex;
